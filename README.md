@@ -11,14 +11,23 @@ Upload image → process → show result (plate text or person name) on the same
 Loading animation during processing
 Shared upload folder for both features
 Clean separation of concerns (plate logic in main file, face logic in separate module)
+
 Technologies Summary:
+
 •	Backend: Flask (lightweight Python web framework)
+
 •	Frontend: HTML + Tailwind CSS (via CDN) + minimal JavaScript (tabs & loading)
+
 Computer Vision:
+
 •	Plate detection → YOLOv8 (Ultralytics)
+
 •	Plate OCR → EasyOCR
+
 •	Face recognition → face_recognition library (dlib-based 128D embeddings)
+
 •	Image handling: OpenCV, Pillow
+
 •	Deployment Readiness: Local development (run with python carapp.py)
 
 To run this project 
